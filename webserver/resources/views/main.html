@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.jpg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/mqtt.min.js"></script>
+    <title>Tưới tiêu thông minh</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="title">Tưới Tiêu Thông Minh</div>
+        </header>
+        <div class="main">
+            <div class="box">
+                <div class="info">
+                    <div class="soil-humidity">
+                        <p class="label"><i class="fas fa-shower"></i>Độ ẩm đất : <span class="content"
+                                id="soil-hum">56%</span></p>
+
+                    </div>
+                    <div class="air-humidity">
+                        <p class="label"> <i class="fas fa-cloud"></i>Độ ẩm Không khí: <span class="content"
+                                id="air-hum">96%</span></p>
+
+                    </div>
+                    <div class="air-temperature">
+                        <p class="label"><i class="fas fa-temperature-high"></i>Nhiệt độ không khí:<span class="content"
+                                id="air-temp">26%</span></p>
+
+                    </div>
+                    <div class="soil-temperature">
+                        <p class="label"><i class="fas fa-cloud-sun-rain"></i>Nhiệt độ đất:<span class="content"
+                                id="soil-temp">26%</span></p>
+
+                    </div>
+                </div>
+                <div class="box-btn">
+                    <div>
+                        <button type="submit" class="btn-den" id="lamp-btn">Đèn</button>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn-bom" id="pump-btn">Máy Bơm</button>
+                    </div>
+
+                </div>
+                <!-- <div class="setTime">
+                    <button type="submit" class="set"  id="time-set">Lên Lịch</button>
+                </div> -->
+                <div class="box-time" id="time-box">
+                    <p class="set-calender">Set lịch: </p>
+                    <input type="time" class="set-time" id="time-value">
+                    <button type="button" class="submit-form" id='submit-form'>Thêm</button>
+                </div>
+
+            </div>
+            <div class="result">
+                <p class="Title">Lịch tưới:</p>
+                <ul class="ListTime">
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

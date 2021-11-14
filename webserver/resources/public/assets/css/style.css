@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    font-weight: 600;
+}
+.container{
+    margin: 0 24%;
+}
+.title{font-size: 27px;
+    color: #3f3b3b;
+    word-spacing: 0px;
+    letter-spacing: 10px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    background-color: #57a687;
+    font-family: 'Montserrat', sans-serif;}
+.main{
+    background-color: #ccc;
+    height: 800px;
+    padding-top: 10px;
+}
+.box{
+    border: 2px solid rgb(224, 224, 224);
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+.info{
+    width: 40%;
+    margin-left: 10px;
+    border: 2px solid rgb(212, 86, 86);
+}
+.info p i{
+    font-size: 24px;
+    padding: 4px 4px;
+    border: 1px solid;
+    color: #26931b;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+button:hover{
+    /* width: 20%; */
+    cursor: pointer;
+}
+.box button:hover{
+    /* color: red; */
+    background-color: grey;
+}
+.btn-den{
+    width: 79px;
+    height: 37px;
+    background-color: #5ea16f;
+    border: none;
+    box-shadow: 1px 3px 6px #54c150;
+    margin-bottom: 20px;
+}
+.btn-bom{
+    width: 79px;
+    height: 37px;
+    background-color: #5ea16f;
+    border: none;
+    box-shadow: 1px 3px 6px #54c150;
+    margin-bottom: 20px;
+}
+.soil-humidity{}
+.air-humidity{}
+.air-temperature{}
+.label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.content{
+    font-weight: 900;
+    font-size: 21px;
+    text-align: center;
+    color: #46a066;
+}
+.setTime{
+    margin-right: 10px;
+}
+.ThemThoiGian{
+    display: none;
+}
+.btn-setTime{
+    height: 45px;
+    padding: 5px 9px;
+    background-color: #5ea16f;
+    border: none;
+    align-items: center;
+    box-shadow: 1px 3px 6px #54c150;
+}
+.time{
+    position: relative;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: center;}
+.now ,.set{
+    height: 45px;
+    padding: 5px 9px;
+    background-color: #5ea16f;
+    border: none;
+    margin-right: 24px;
+    box-shadow: 1px 3px 6px #54c150;
+}
+.set{
+    /* position: relative; */
+}
+.box-time{
+    /* width: 40%; */
+    /* display: none; */
+    /* margin-left: 25px; */
+    align-items: center;
+}
+.set-calender{
+    font-size: 20px;
+    font-weight: 600;
+    color: #41856c;
+}
+.set-time{
+    color: #32c5d7;
+    margin: 0 11px;
+    background-color: #c176a7;
+    padding: 7px 8px;
+    border: none;
+    font-size: 21px;
+}
+.submit-form{
+    font-size: 16px;
+    padding: 5px 10px;
+    box-shadow: 1px 3px 3px 1px #cd7c85;
+    border: 2px solid #cd7c85;
+}
+.update{  
+    display: none;
+    width: 90%;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 42px;
+    margin: 0 auto;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+/* resulf */
+.resulf{
+    margin: 20px;
+}
+.Title{
+    font-size: 20px;
+    color: #932230;
+    font-weight: 600;
+}
+.ListTime{
+    list-style: none;
+    margin-top: 10px;
+}
+.TimeItem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.TimeItem-Text{
+    margin-right: 10px;
+}
+.Delete-TimeItem{
+    border: none;
+    background-color: #ccc;
+    font-size: 20px;
+    color: #d16e6e;
+}
+.Delete-TimeItem:hover{
+    cursor: pointer;
+}
